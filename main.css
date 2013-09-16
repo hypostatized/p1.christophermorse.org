@@ -1,3 +1,14 @@
+a:link, a:active, a:visited {
+    color: #FF9640;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BF3030;   
+    text-decoration: none;
+}
+
+
 body {
     margin: 0 auto;
     padding: 2em;
@@ -6,26 +17,37 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     color: #333333;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    background-color: #FFFFD5;
+}
+
+#content {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+#profile {
+    border: 5px solid #333333;
+    display:block;
+    float:left;
+    margin: 13px;
+    padding: 2px;
 }
 
 #top, #bottom, #left, #right {
-	background: #a5ebff;
+	background: #EBEBAD;
 	position: fixed;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 15px;
+		width: 18px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
 		
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 15px;
+		height: 18px;
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
