@@ -15,7 +15,7 @@ body {
     max-width: 800px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.3em;
     color: #333333;
     background-color: #FFFFD5;
 }
@@ -28,11 +28,11 @@ body {
 }
 
 #profile {
-    border: 5px solid #333333;
-    display:block;
+    border: 4px solid #333333;
+    display: block;
     float:left;
-    margin: 13px;
-    padding: 2px;
+    margin: 15px;
+    padding: 4px;
 }
 
 #top, #bottom, #left, #right {
@@ -52,3 +52,13 @@ body {
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+
+#h_html {
+    float: left;
+    margin-left: 15px;
+}
+
+#c_css {
+    float: right;
+    margin-right: 15px;
+}
